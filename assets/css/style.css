@@ -3,7 +3,8 @@ body,html{
     overscroll-behavior:none;
     margin:0;
     padding:0;
-    background-color: #191d2b;
+    /* background-color: red; */
+    background: url('../images/StackingHandsMain.jpg'), red;
 }
 
 @-webkit-keyframes slidetounlock{
@@ -26,6 +27,14 @@ body,html{
 
 .flex{
     display:flex
+}
+
+.social-links{
+    margin: 0 auto;
+}
+
+.social {
+  filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
 }
 
 .flex-both-center{
